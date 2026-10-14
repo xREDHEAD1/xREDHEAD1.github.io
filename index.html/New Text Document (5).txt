@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malinda | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">Malinda.</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#lifestyle">Lifestyle</a></li>
+                <li><a href="#gymming">Gymming</a></li>
+                <li><a href="#contact">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Hi, I'm Malinda</h1>
+        <p>Driven by discipline in the gym, fueled by a love for pizza.</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Welcome to my personal corner of the web. I am someone who believes in hard work, continuous self-improvement, and finding a perfect balance in life. Whether it is building clean web structures or hitting personal records, I bring full focus and dedication to everything I do.</p>
+    </section>
+
+    <!-- Lifestyle & Interests Section -->
+    <section id="lifestyle" class="section bg-light">
+        <h2>Interests & Hobbies</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>The GYM</h3>
+                <p>My primary hobby and daily ritual. It is where I challenge my limits, build mental resilience, and work consistently toward physical excellence.</p>
+            </div>
+            <div class="project-card">
+                <h3>Pizza</h3>
+                <p>My ultimate reward and favorite interest. The perfect fuel after an intense training session and a true appreciation for good food.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deep Dive: Gymming Description Section -->
+    <section id="gymming" class="section gym-feature">
+        <div class="gym-content">
+            <h2>The Art of Gymming</h2>
+            <p>To me, gymming is far more than just lifting heavy weights or working up a sweat; it is a lifestyle rooted in ultimate discipline, structural consistency, and progressive growth. Every single workout is a deliberate step toward building both physical strength and mental fortitude.</p>
+            <p>Gymming teaches you the value of patience and accountability—showing up on the days you don't feel like it, perfecting your form, and understanding that real results come from structured execution over time. It is the ultimate playground for personal development, where dedication transforms directly into visible progress.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <h2>Connect With Me</h2>
+        <p>Want to talk about training protocols, web design, or the best pizza spots? Let's chat!</p>
+        <p>Email: <strong>malinda@example.com</strong></p>
+        <button class="btn">Send Message</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Malinda. Built with raw code—Structured & Disciplined.</p>
+    </footer>
+
+</body>
+</html>
